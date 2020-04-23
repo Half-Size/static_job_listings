@@ -5,7 +5,8 @@
   <meta name="viewport" content="width=device-width, initial-scale=1.0"> <!-- displays site properly based on user's device -->
 
   <link rel="icon" type="image/png" sizes="32x32" href="./images/favicon-32x32.png">
-  
+  <link rel="stylesheet" type="text/css" href="style.css">
+  <link href="https://fonts.googleapis.com/css?family=Spartan:500,700&display=swap" rel="stylesheet">
   <title>Frontend Mentor | Job Listings</title>
 
   <!-- Feel free to remove these styles or customise in your own stylesheet 👍 -->
@@ -15,175 +16,257 @@
   </style>
 </head>
 <body>
-  <!-- Item Start -->
-  Photosnap
-  New!
-  Featured
-  Senior Frontend Developer
-  1d ago
-  Full Time
-  USA only
-  <!-- Role -->
-  Frontend
-  <!-- Level -->
-  Senior
-  <!-- Languages -->
-  HTML
-  CSS
-  JavaScript
-  <!-- Item End -->
+  <header></header>
 
-  <!-- Item Start -->
-  Manage
-  New!
-  Featured
-  Fullstack Developer
-  1d ago
-  Part Time
-  Remote
-  <!-- Role -->
-  Fullstack
-  <!-- Level -->
-  Midweight
-  <!-- Languages -->
-  Python
-  <!-- Tools -->
-  React
-  <!-- Item End -->
+  <div class ="container">
 
+  <div class="item featuredContainer" data-role="frontend" data-level="senior" data-languages="html, css, javascript">
+  
+  <div class="itemContainer">
   <!-- Item Start -->
-  Account
-  New!
-  Junior Frontend Developer
-  2d ago
-  Part Time
-  USA only
-  <!-- Role -->
-  Frontend
-  <!-- Level -->
-  Junior
-  <!-- Languages -->
-  JavaScript
-  <!-- Tools -->
-  React
-  Sass
-  <!-- Item End -->
+  <span class = "company">Photosnap</span>
+  <span class = "new">New!</span>
+  <span class = "featured">Featured</span>
+  <span class = "title">Senior Frontend Developer</span>
+  <span class = "details"> 1d ago </span>
+  <span class="details">Full Time</span> 
+  <span class="details">USA only</span>
+  </span>
+  </div>
 
-  <!-- Item Start -->
-  MyHome
-  Junior Frontend Developer
-  5d ago
-  Contract
-  USA only
+  <div class="filtersContainer">
   <!-- Role -->
-  Frontend
+  <span class = "filters">Frontend</span>
   <!-- Level -->
-  Junior
+  <span class = "filters">Senior</span>
   <!-- Languages -->
-  CSS
-  JavaScript
+  <span class = "filters">HTML</span>
+  <span class = "filters">CSS</span>
+  <span class = "filters">JavaScript</span>
+  </div>
   <!-- Item End -->
+  </div>
 
-  <!-- Item Start -->
-  Loop Studios
-  Software Engineer
-  1w ago
-  Full Time
-  Worldwide
-  <!-- Role -->
-  Fullstack
-  <!-- Level -->
-  Midweight
-  <!-- Languages -->
-  JavaScript
-  Ruby
-  <!-- Tools -->
-  Sass
-  <!-- Item End -->
+  <div class="item featuredContainer" data-role="Fullstack" data-level="Midweight" data-languages="Python" data-tools="React">
+    <!-- Item Start -->
+    <div class="itemContainer">
+    <span class = "company">Manage</span>
+    <span class = "new">New!</span>
+    <span class = "featured">Featured</span>
+    <span class = "title">Fullstack Developer</span>
+    <span class = "details">1d ago</span>
+    <span class="details">Part Time</span>
+    <span class="details">Remote</span>
+    
+    </div>
 
-  <!-- Item Start -->
-  FaceIt
-  Junior Backend Developer
-  2w ago
-  Full Time
-  UK only
-  <!-- Role -->
-  Backend
-  <!-- Level -->
-  Junior
-  <!-- Languages -->
-  Ruby
-  <!-- Tools -->
-  RoR
+    <div class="filtersContainer">
+    <!-- Role -->
+    <span class = "filters">Fullstack</span>
+    <!-- Level -->
+    <span class = "filters">Midweight</span>
+    <!-- Languages -->
+    <span class = "filters">Python</span>
+    <!-- Tools -->
+    <span class = "filters">React</span>
   <!-- Item End -->
+  </div>
+  </div>
 
-  <!-- Item Start -->
-  Shortly
-  Junior Developer
-  2w ago
-  Full Time
-  Worldwide
-  <!-- Role -->
-  Frontend
-  <!-- Level -->
-  Junior
-  <!-- Languages -->
-  HTML
-  JavaScript
-  <!-- Tools -->
-  Sass
-  <!-- Item End -->
+  <div class="item" data-role="frontend" data-level="junior" data-languages="javascript" data-tools="react, sass">
+    <!-- Item Start -->
+    <div class="itemContainer">
+    <span class = "company">Account</span>
+    <span class = "new">New!</span>
+    <span class = "title">Junior Frontend Developer</span>
+    <span class = "details">2d ago</span>
+    <span class="details">Part Time</span>
+    <span class="details">USA only</span>
+    
+    </div>
 
-  <!-- Item Start -->
-  Insure
-  Junior Frontend Developer
-  2w ago
-  Full Time
-  USA only
-  <!-- Role -->
-  Frontend
-  <!-- Level -->
-  Junior
-  <!-- Languages -->
-  JavaScript
-  <!-- Tools -->
-  Vue
-  Sass
-  <!-- Item End -->
+    <div class="filtersContainer">
+    <!-- Role -->
+    <span class = "filters">Frontend</span>
+    <!-- Level -->
+    <span class = "filters">Junior</span>
+    <!-- Languages -->
+    <span class = "filters">JavaScript</span>
+    <!-- Tools -->
+    <span class = "filters">React</span>
+    <span class = "filters">Sass</span>
+  </div>
+  </div>
 
-  <!-- Item Start -->
-  Eyecam Co.
-  Full Stack Engineer
-  3w ago
-  Full Time
-  Worldwide
-  <!-- Role -->
-  Fullstack
-  <!-- Level -->
-  Midweight
-  <!-- Languages -->
-  JavaScript
-  Python
-  <!-- Tools -->
-  Django
-  <!-- Item End -->
+  <div class="item" data-role="frontend" data-level="junior" data-languages="css, javascript" data-tools="">
+    <!-- Item Start -->
+    <div class="itemContainer">
+    <span class = "company">MyHome</span>
+    <span class = "title">Junior Frontend Developer</span>
+    <span class = "details">5d ago</span>
+    <span class="details">Contract</span>
+    <span class="details">USA only</span>
+    
+    </div>
 
-  <!-- Item Start -->
-  The Air Filter Company
-  Front-end Dev
-  1mo ago
-  Part Time
-  Worldwide
-  <!-- Role -->
-  Frontend
-  <!-- Level -->
-  Junior
-  <!-- Languages -->
-  JavaScript
-  <!-- Tools -->
-  React
-  Sass
+    <div class="filtersContainer">
+    <!-- Role -->
+    <span class = "filters">Frontend</span>
+    <!-- Level -->
+    <span class = "filters">Junior</span>
+    <!-- Languages -->
+    <span class = "filters">CSS</span>
+    <span class = "filters">JavaScript</span>
   <!-- Item End -->
+  </div>
+  </div>
+
+  <div class="item" data-role="fullstack" data-level="midweight" data-languages="javascript, ruby" data-tools="sass">
+    <!-- Item Start -->
+    <div class="itemContainer">
+    <span class = "company">Loop Studios</span>
+    <span class = "title">Software Engineer</span>
+    <span class = "details">1w ago</span>
+    <span class = "details">Full Time</span>
+    <span class = "details">Worldwide</span>
+    
+    </div>
+
+    <div class="filtersContainer">
+    <!-- Role -->
+    <span class = "filters">Fullstack</span>
+    <!-- Level -->
+    <span class = "filters">Midweight</span>
+    <!-- Languages -->
+    <span class = "filters">JavaScript</span>
+    <span class = "filters">Ruby</span>
+    <!-- Tools -->
+    <span class = "filters">Sass</span>
+  <!-- Item End -->
+  </div>
+  </div>
+
+  <div class="item" data-role="backend" data-level="junior" data-languages="ruby" data-tools="ror">
+    <!-- Item Start -->
+    <div class="itemContainer">
+    <span class = "company">FaceIt</span>
+    <span class = "title">Junior Backend Developer</span>
+    <span class = "details">2w ago</span>
+    <span class="details">Full Time</span>
+    <span class="details">UK only</span>
+    </div>
+
+    <div class="filtersContainer">
+    <!-- Role -->
+    <span class = "filters">Backend</span>
+    <!-- Level -->
+    <span class = "filters">Junior</span>
+    <!-- Languages -->
+    <span class = "filters">Ruby</span>
+    <!-- Tools -->
+    <span class = "filters">RoR</span>
+  <!-- Item End -->
+  </div>
+  </div>
+
+  <div class="item" data-role="frontend" data-level="junior" data-languages="html, javascript" data-tools="sass">
+    <!-- Item Start -->
+    <div class="itemContainer">
+    <span class = "company">Shortly</span>
+    <span class = "title">Junior Developer</span>
+    <span class = "details">2w ago</span>
+    <span class="details">Full Time</span>
+    <span class="details">Worldwide</span>
+    </div>
+
+    <div class="filtersContainer">
+    <!-- Role -->
+    <span class = "filters">Frontend</span>
+    <!-- Level -->
+    <span class = "filters">Junior</span>
+    <!-- Languages -->
+    <span class = "filters">HTML</span>
+    <span class = "filters">JavaScript</span>
+    <!-- Tools -->
+    <span class = "filters">Sass</span>
+  <!-- Item End -->
+  </div>
+  </div>
+
+  <div class="item" data-role="frontend" data-level="junior" data-languages="javascript" data-tools="vue, sass">
+    <!-- Item Start -->
+    <div class="itemContainer">
+    <span class = "company">Insure</span>
+    <span class = "title">Junior Frontend Developer</span>
+    <span class = "details">2w ago</span>
+    <span class="details">Full Time</span>
+    <span class="details">USA only</span>
+    </div>
+
+    <div class="filtersContainer">
+    <!-- Role -->
+    <span class = "filters">Frontend</span>
+    <!-- Level -->
+    <span class = "filters">Junior</span>
+    <!-- Languages -->
+    <span class = "filters">JavaScript</span>
+    <!-- Tools -->
+    <span class = "filters">Vue</span>
+    <span class = "filters">Sass</span>
+  <!-- Item End -->
+  </div>
+  </div>
+
+  <div class="item" data-role="fullstack" data-level="midweight" data-languages="javascript, python" data-tools="django">
+    <!-- Item Start -->
+    <div class="itemContainer">
+    <span class = "company">Eyecam Co.</span>
+    <span class = "title">Full Stack Engineer</span>
+    <span class = "details">3w ago</span>
+    <span class="details">Full Time</span>
+    <span class="details">Worldwide</span>
+    
+    </div>
+
+    <div class="filtersContainer">
+    <!-- Role -->
+    <span class = "filters">Fullstack</span>
+    <!-- Level -->
+    <span class = "filters">Midweight</span>
+    <!-- Languages -->
+    <span class = "filters">JavaScript</span>
+    <span class = "filters">Python</span>
+    <!-- Tools -->
+    <span class = "filters">Django</span>
+  <!-- Item End -->
+  </div>
+  </div>
+
+  <div class="item" data-role="" data-level="" data-languages="" data-tools="">
+    <!-- Item Start -->
+    <div class="itemContainer">
+    <span class = "company">The Air Filter Company</span>
+    <span class = "title">Front-end Dev</span>
+    <span class = "details">1mo ago</span>
+    <span class="details">Part Time</span>
+    <span class="details">Worldwide</span>
+    </div>
+
+    <div class="filtersContainer">
+    <!-- Role -->
+    <span class = "filters">Frontend</span>
+    <!-- Level -->
+    <span class = "filters">Junior</span>
+    <!-- Languages -->
+    <span class = "filters">JavaScript</span>
+    <!-- Tools -->
+    <span class = "filters">React</span>
+    <span class = "filters">Sass</span>
+  <!-- Item End -->
+  </div>
+  </div>
+
+  </div>
   
   <div class="attribution">
     Challenge by <a href="https://www.frontendmentor.io?ref=challenge" target="_blank">Frontend Mentor</a>. 
